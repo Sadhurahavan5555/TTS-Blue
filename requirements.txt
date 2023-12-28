@@ -1,9 +1,7 @@
-gTTS==2.4.0
-ipython==8.12.3
+gTTS
+ipython
 openai==0.28.0
-Pillow==10.1.0
-Pillow==7.0.0
-Pillow==10.1.0
+Pillow
 streamlit==1.29.0
-streamlit_extras==0.3.6
-streamlit_option_menu==0.3.6
+streamlit_extra
+streamlit_option_menu
