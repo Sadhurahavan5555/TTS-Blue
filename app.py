@@ -17,15 +17,14 @@ hide_main_style = """
 
 st.markdown(hide_main_style, unsafe_allow_html=True)
 
-with st.sidebar:
-    selected = option_menu(
-        menu_title=None,
-        options=["Bot","Notes"],
-        icons=["robot","bell fill"],
-        menu_icon=None,
-        default_index=0,
-        orientation="horizontal",
-    )
+selected = option_menu(
+    menu_title=None,
+    options=["Bot","Notes"],
+    icons=["robot","bell fill"],
+    menu_icon=None,
+    default_index=0,
+    orientation="horizontal",
+)
 if selected == "Notes":
     st.markdown("▸ I have used the OpenAi API key") 
     st.markdown("▸ I have added a TTS(Text to Speech) and some GUI")
