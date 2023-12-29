@@ -1,7 +1,6 @@
 import openai
 import streamlit as st
 from PIL import Image
-from streamlit_extras.let_it_rain import rain 
 from streamlit_option_menu import option_menu
 from gtts import gTTS
 import IPython.display as ipd
@@ -26,8 +25,6 @@ with st.sidebar:
         menu_icon=None,
         default_index=0,
     )
-def run_snow_animation():
-    rain(emoji="❄", font_size=20, falling_speed=5, animation_length="infinite")
 if selected == "Notes":
     st.markdown("▸ I have used the OpenAi API key") 
     st.markdown("▸ I have added a TTS(Text to Speech) and some GUI")
@@ -82,4 +79,3 @@ if selected == "Bot":
 
         st.session_state.messages.append({"role": "assistant", "content": full_response})
 
-run_snow_animation()
