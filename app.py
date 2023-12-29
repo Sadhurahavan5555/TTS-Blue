@@ -38,6 +38,7 @@ if selected == "Bot":
     """
     <div style="text-align: center;">
         <h1>CHAT WITH BLUE</h1>
+        <h1>👋</h1>
     </div>
     """,
     unsafe_allow_html=True,
