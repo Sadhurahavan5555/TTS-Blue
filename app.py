@@ -36,7 +36,6 @@ if selected == "Notes":
 if selected == "Bot":
 
     st.title("BLUE")
-    st.caption("By <Sadhurahavan>")
     user_message = "👤"
     name = "🤖"
 
