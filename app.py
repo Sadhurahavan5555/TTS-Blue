@@ -24,6 +24,7 @@ with st.sidebar:
         icons=["robot","bell fill"],
         menu_icon=None,
         default_index=0,
+        orientation="horizontal"
     )
 if selected == "Notes":
     st.markdown("▸ I have used the OpenAi API key") 
